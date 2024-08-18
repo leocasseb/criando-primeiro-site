@@ -28,7 +28,7 @@ form{
 }
 input{
     border: solid black .3px;
-    position: center;
+    text-align: center;
 }
 label{
     font-weight: bold;
