@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+    border: solid 1px, black;
+}
+body{
+    background-color: lightgrey;
+    text-justify: auto;
+}
+form{
+    text-align: center;
+}
+#campo_nome{
+    background-color: rgba(255, 255, 255, 0.671) ;
+}
+#campo_idade{
+    background-color: rgba(255, 255, 255, 0.671) ;
+}
+#campo_email{
+    background-color: rgba(255, 255, 255, 0.671) ;
+}
+#campo_senha{
+    background-color: rgba(255, 255, 255, 0.671) ;
+}
+input{
+    border: solid black .3px;
+    position: center;
+}
+label{
+    font-weight: bold;
+}

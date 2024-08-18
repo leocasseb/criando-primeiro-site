@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/form.css">
+</head>
+<body>
+    <h1>Formulário Aqui</h1>
+    <br>
+    <br>
+    <form>
+        <div class="div1-form">
+        <!--o label basicamente legenda o campo-->
+        <label for="campo_nome">Nome:</label> &nbsp;<!--&nbsp serve pra dar um espacinho-->
+        <input id="campo_nome" placeholder="Seu Nome" type="text" required><br><br>
+        <label for="campo_idade">Idade:</label>
+        <input id="campo_idade" type="text" placeholder="Sua Idade" required><br><br>
+        <label for="campo_email">Email</label>
+        <input id="campo_email" type="email" placeholder="Seu Email" required><br><br>
+        <label for="campo_senha">Senha</label>
+        <input id="campo_senha" type="password" placeholder="Sua Senha" required>
+        </div>
+        <!--id é basicamente como o label se refere ao campo, clicando no campo label com o for linkado, ele funciona como se tivesse clicado no campo, sendo uma acessibilidade talvez. placeholder diz oq vai ta escrito no campo até ele ser preenchido--><br><br>
+        <input type="radio" name="animal" id="select_animal1" value="Cachorro">
+        <label for="select_animal1">Cachorro</label>
+        <input type="radio" name="animal" id="select_animal2" value="Gato"> 
+        <label for="select_animal2">Gato</label>
+        <!--o input type radio, só seleciona um, e temq  por o mesmo name pra linkar, tipo um ou outro, já o type checkbox eu seleciono os que eu quero e boto tudo diferente mesmo, type, name, value, tudo--> <br><br>
+        <input type="checkbox" id="item1" value="monitor" name="monitor">
+        <label for="item1">monitor</label><br>
+        <input type="checkbox" id="item2" value="mouse" name="mouse">
+        <label for="mouse">mouse</label><br>
+        <input type="checkbox" id="item3" value="teclado" name="teclado">
+        <label for="item3">teclado</label>
+        <br><br>
+        <select name="cores">
+            <option selected disabled value="">Selecione uma Cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="preto">Preto</option>
+        </select><br><br>
+
+        <h2>Digite uma Mensagem</h2>
+       
+        <textarea name="texto-do-usuário" id="texto1" rows="15" cols="55"></textarea><br><br>
+
+        <button>Clique aqui</button>
+
+
+        <input type="submit" value="Enviar Formulário">
+
+    </form><br><br>
+
+    <button>Clique Aqui</button>
+<hr>
+<!--Campo "required" faz virar obrigatório algo no formulário-->
+    <a href="index.html">Voltar</a>
+</body>
+</html>
